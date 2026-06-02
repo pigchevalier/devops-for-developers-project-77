@@ -6,6 +6,7 @@ provider "registry.terraform.io/datadog/datadog" {
   constraints = "~> 3.54"
   hashes = [
     "h1:DSnuBJX+FsnD/SimxGCZeMF9QzW3ChVunEyKaOawR6A=",
+    "h1:apeGnbBQdHFdCrFu27gAS/MQV6OX+6mPQ9/RqwhVNM4=",
     "zh:3c5c80c169b11636b2982aefce67aaffb830cc775a810e508b79ac9f37e65de8",
     "zh:46350a77f20f7606528b497746f0b6a24aa8d259a959b2ac35446ae63aefc313",
     "zh:5d6118816157312673a48882aa8ebc8efd71601a49d61fe41b622e1bf45e32ab",
@@ -25,8 +26,9 @@ provider "registry.terraform.io/datadog/datadog" {
 
 provider "registry.terraform.io/hashicorp/local" {
   version     = "2.9.0"
-  constraints = ">= 2.0.0, > 2.2.0"
+  constraints = "> 2.2.0"
   hashes = [
+    "h1:9rBZCMNpxKwMlRbWH2QpwD3kqUCAejdOZQ/aiiDObXQ=",
     "h1:m24fjcInWvTVZ1XSo2MaNuKPe+X/gfG8SIi09rA7a7M=",
     "zh:0baa4566cf77f1ff52f4293d1c8536202dd23edc197c3196413a28343c3ac3a0",
     "zh:16b5559c3c07088ddad11a9bb9e9c0799999363c2958e9a5be2bcbbf2cd9ca64",
@@ -49,6 +51,7 @@ provider "registry.terraform.io/hashicorp/random" {
   constraints = "> 3.3.0"
   hashes = [
     "h1:OO+IuvQJSPmWdN8AyyIEvPJbLvDQpgX/zbktoa9KsJE=",
+    "h1:UlBuNVuCGJ39tTv2c5gz2NRZnQbXfbIWbTzWcth5o74=",
     "zh:161ad0bd9a75768c82f53fb6e7172a9d8be2d4889b012645a34795031aaf1bf1",
     "zh:19dc9a5b17729725ccfc4f45b0500af0ee5bc6b6b160c7adb8f2bf617d2c80ea",
     "zh:269eda8fe42daa7974d5a34d166c3ba9defe80cde86c01e4dadcfdf2e1f05e5f",
@@ -69,6 +72,7 @@ provider "registry.terraform.io/hashicorp/time" {
   version     = "0.9.1"
   constraints = "0.9.1"
   hashes = [
+    "h1:NUv/YtEytDQncBQ2mTxnUZEy/rmDlPYmE9h2iokR0vk=",
     "h1:VxyoYYOCaJGDmLz4TruZQTSfQhvwEcMxvcKclWdnpbs=",
     "zh:00a1476ecf18c735cc08e27bfa835c33f8ac8fa6fa746b01cd3bcbad8ca84f7f",
     "zh:3007f8fc4a4f8614c43e8ef1d4b0c773a5de1dcac50e701d8abc9fdc8fcb6bf5",
@@ -87,9 +91,10 @@ provider "registry.terraform.io/hashicorp/time" {
 
 provider "registry.terraform.io/yandex-cloud/yandex" {
   version     = "0.136.0"
-  constraints = ">= 0.88.0, >= 0.89.0, >= 0.136.0, ~> 0.136.0"
+  constraints = ">= 0.88.0, >= 0.89.0, ~> 0.136.0"
   hashes = [
     "h1:13TKk6mcYov61J1IUPvczaHnMrK06ldic6Nj7Zslieg=",
+    "h1:7wwpE68VzzTfEcwkvCPwa3JpC1vPs42cxueWUyTqPfM=",
     "zh:08a8fbb0747131ba684fdec8e23b07c9e131d13173bc84edbab06d6fbde9bf79",
     "zh:31eb100bc52b79b9943ec0a4d7b385611ee2219fc02bfa5761f9eb1c8bc6d44c",
     "zh:3e5f18a11358cf92272d4f3778dc0065e22f9d4296521c8b5960ebcefc223b06",
