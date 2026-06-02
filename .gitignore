@@ -1,0 +1,6 @@
+secret.*.tfvars
+secret.*.tfbackend
+.terraform
+ansible/tmp
+*.backup
+.vault_password

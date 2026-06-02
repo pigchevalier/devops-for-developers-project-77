@@ -1,0 +1,12 @@
+pip_install_packages:
+  - name: docker
+
+redmine_image: redmine
+redmine_container_name: redmine
+redmine_app_dir: /opt/redmine
+redmine_port: 80
+redmine_container_port: 3000
+
+redmine_db_port: 6432
+redmine_db_username: "{{db_user}}"
+redmine_db_database: "{{db_name}}"

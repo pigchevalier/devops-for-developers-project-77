@@ -1,0 +1,8 @@
+roles:
+  - name: geerlingguy.pip
+  - name: geerlingguy.docker
+    version: 7.4.7
+
+collections:
+  - name: community.docker
+  - name: ansible.windows
