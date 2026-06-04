@@ -13,7 +13,7 @@ edit_vault:
 	ansible-vault edit group_vars/webservers/vault.yml --vault-password-file ../.vault_password
 
 update_secrets:
-	ansible-playbook generate-secrets.yml --vault-password-file ../.vault_password
+	ansible-playbook -i localhost, generate-secrets.yml --vault-password-file ../.vault_password
 
 datadog:
 	ansible-playbook -i inventory.ini playbook.yml --tags datadog --vault-password-file ../.vault_password

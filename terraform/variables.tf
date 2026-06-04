@@ -10,6 +10,11 @@ variable "yc_folder_id" {
   sensitive = true
 }
 
+variable "yc_zone" {
+  type    = string
+  default = "ru-central1-a"
+}
+
 variable "db_user" {
   sensitive = true
 }

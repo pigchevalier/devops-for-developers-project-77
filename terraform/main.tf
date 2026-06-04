@@ -8,7 +8,7 @@ resource "yandex_vpc_network" "net" {
 
 resource "yandex_vpc_subnet" "subnet" {
   name           = "tfhexlet"
-  zone           = "ru-central1-a"
+  zone           = var.yc_zone
   network_id     = yandex_vpc_network.net.id
   v4_cidr_blocks = ["192.168.192.0/24"]
 }

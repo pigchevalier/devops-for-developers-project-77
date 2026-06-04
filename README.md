@@ -57,6 +57,8 @@ Apply infrastructure:
 make terraform_apply
 ```
 
+Terraform also generates `ansible/group_vars/all/terraform.yml` with infrastructure outputs for Ansible.
+
 If the IAM token expires, generate a new one:
 
 ```bash
@@ -82,7 +84,6 @@ make ansible_install
 
 ```bash
 make ansible_inventory
-make ansible_vars
 ```
 
 ## Prepare servers
@@ -107,5 +108,3 @@ make ansible_deploy
 ```bash
 make ansible_datadog
 ```
-
-

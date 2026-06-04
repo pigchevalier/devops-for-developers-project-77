@@ -48,7 +48,7 @@ module "alb" {
               interval         = "10s"
 
               http_healthcheck = {
-                path = "/"
+                path  = "/"
                 http2 = false
               }
             }
@@ -78,7 +78,7 @@ module "alb" {
 
     alb_locations = [
       {
-        zone      = "ru-central1-a"
+        zone      = var.yc_zone
         subnet_id = yandex_vpc_subnet.subnet.id
       }
     ]
